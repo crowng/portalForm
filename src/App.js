@@ -13,7 +13,7 @@ function App() {
       <Toggle>
             {({ on, toggle }) => (
               <Fragment>
-                <button onClick={toggle}>Login</button>
+                <button onClick={toggle}>Contact</button>
                 <Modal on={on} toggle={toggle}>
                 <Form />
                 </Modal>
